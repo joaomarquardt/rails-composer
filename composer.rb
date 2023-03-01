@@ -263,7 +263,7 @@ end
 
 # this application template only supports Rails version 4.1 and newer
 case Rails::VERSION::MAJOR.to_s
-when "5"
+when "7"
   say_wizard "You are using Rails version #{Rails::VERSION::STRING}. Please report any issues."
 when "3"
   say_wizard "You are using Rails version #{Rails::VERSION::STRING} which is not supported. Use Rails 4.1 or newer."
