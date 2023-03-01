@@ -355,7 +355,7 @@ if options[:verbose]
 end
 
 case Rails::VERSION::MAJOR.to_s
-when "5"
+when "7"
   prefs[:apps4] = multiple_choice "Build a starter application?",
     [["Build a RailsApps example application", "railsapps"],
     ["Contributed applications", "contributed_app"],
